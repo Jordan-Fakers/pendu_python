@@ -1,0 +1,57 @@
+﻿Algo 
+
+
+Afficher le mot 
+Propose à l'utilisateur de choisir une lettre
+afficher le nombre de tentatives restantes
+afficher une partie du pendu en fonction des tentatives restantes
+afficher le résultat du mot en fonction des lettres déjà trouvé
+
+
+
+
+   ==========Y===
+#    ||  /      |
+#    || /       |
+#    ||/        O
+#    ||        /|\
+#    ||        /|\
+#    ||
+#   /||
+#  //||
+# ============
+
+
+
+
+
+
+Afficher le mot :
+* récupérer dans une liste les mots  
+* parcourir la liste
+* l’afficher dans le terminal 
+
+
+Retirer des lettres au mot 
+* une fois que le mot est sélectionné, enlever de manière aléatoire des lettres et afficher le mot avec des ____ entre les les lettres
+* définir le nombre de lettres à laisser afficher (par exemple : premiere et derniere)
+
+
+afficher le mot avec des lettres en moins
+* afficher les lettres déjà utilisé pour éviter les doublons
+
+
+Proposer à l’user d’input une lettre 
+* vérifier si la lettre est dans le mot qui a été sélectionné
+* parcourir le mot et vérifier si la lettre a une correspondance
+
+
+Afficher le pendu
+* si la lettre n’est pas affichée dans le mot une fois qu’il a été parcouru afficher la potence
+* si elle est dans le mot afficher le mot avec une lettre en plus qui a été ajouté
+
+
+Nombre de tentative restante 
+* créer un compteur qui a été initialisé à 5 par exemple 
+* retirer une tentative à chaque fois que l’user a input une lettre 
+ou retirer une tentative à chaque fois qu’on affiche un élément du déssin (mettre en lien les deux)

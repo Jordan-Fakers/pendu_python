@@ -1,0 +1,3 @@
+[console_scripts]
+bleu = pendu_game.pendu:main
+
